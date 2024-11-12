@@ -1,0 +1,36 @@
+
+
+.arrow{
+    padding:20px;
+}
+
+.code{
+
+    position:absolute;
+    top:-14px;   
+    color: white; 
+    text-align: center; 
+    
+   
+    
+  }
+
+  .text{
+    position: relative;
+    
+    
+  }
+.text>h1{
+  padding: 10px;
+}
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:50px;
+    gap: 5rem;
+  }
+
+  .opponent{
+    color: white;
+  }

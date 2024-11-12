@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  
+  --bg-color: #3D7AD6; 
+  --primary-color: #FCD015; 
+  --bg-box-color: #C9F9FC; 
+  --bg-board-color: #fff; 
+  --border-color: #000
+}
+
+
+body{
+  background-color: #3D7AD6
+}
+
+
+

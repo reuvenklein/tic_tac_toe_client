@@ -1,0 +1,20 @@
+
+
+.load{
+    height: 70px;
+    width:70px;
+    border-width: 10px;
+    border-radius: 50%;
+    border-color: lightgray;
+    border-left:10px solid yellow;
+    border-style: solid;
+    animation:turn 3s linear infinite;
+    
+    
+    
+}
+
+@keyframes turn {
+    
+    100%{rotate: 360deg;}
+}

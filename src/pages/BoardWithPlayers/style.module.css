@@ -1,0 +1,48 @@
+
+
+
+.board{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 350px;
+    max-width: 100%;
+    aspect-ratio: 1/1;
+    background-color: var(--bg-board-color);
+    border: 2px solid var(--border-color);
+    margin: 20px auto;
+    gap: .5rem;
+    padding: 1rem;
+
+}
+
+.box{
+    border: 2px solid var(--border-color);
+    background-color: var(--bg-box-color);
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.win{
+text-align: center;
+
+}
+
+.wins{
+    display:flex;
+    gap:0.5rem
+   
+    
+
+}
+
+.players{
+    padding: 10px;
+    gap:3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.winner{
+    color:blue
+}

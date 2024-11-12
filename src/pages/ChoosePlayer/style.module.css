@@ -1,0 +1,36 @@
+
+
+
+
+.arrow{
+    padding:20px;
+}
+
+
+.choose{
+    text-align: center;
+    color: white;
+}
+
+
+
+.rectangle{
+    padding: 5px;
+  display: flex;
+  justify-content: center;
+   gap:1rem;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+
+.play{
+    text-align: center;
+}
