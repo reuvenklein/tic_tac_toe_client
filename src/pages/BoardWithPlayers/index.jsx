@@ -30,12 +30,12 @@ export default function BoardWithPlayers({ game, setGame, socketIO, typeOfGame }
         squareNumber
 
 
-
+    //if player clicks on play again button,'play-again' event is emitted,which clears the board, so players could play again.
     function clickPlayAgain() {
         setCurrentPlayer1('player2')
         socketIO.emit('play-again')
     }
-
+    //if player clicks the back to main button,the 'back-main' event is emitted,which takes user back to the menu.
     function clickMain() {
         socketIO.emit('back-main')
 
