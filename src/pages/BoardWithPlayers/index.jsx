@@ -20,9 +20,9 @@ export default function BoardWithPlayers({ game, setGame, socketIO, typeOfGame }
     const [tie, setTie] = useState(false)
     const [player, setPlayer] = useState("")
     const [data, setData] = useState("")
-    let size = '50px',
+    let size = '55px',
         color = '#FCD015',
-        fontSize = '50px',
+        fontSize = '55px',
         Player = "",
         size1 = '30px',
         fontSize1 = '30px',
@@ -34,6 +34,7 @@ export default function BoardWithPlayers({ game, setGame, socketIO, typeOfGame }
     function clickPlayAgain() {
         setCurrentPlayer1('player2')
         socketIO.emit('play-again')
+
     }
     //if player clicks the back to main button,the 'back-main' event is emitted,which takes user back to the menu.
     function clickMain() {
